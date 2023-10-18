@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+main{
+}
+
+body{
+    background: green;
+}
+
+.container {
+    margin: 20px;
+    background: white;
+    width: 900px;
+    height: 800px;
+}
+
+.image1{
+    width: 900px;
+    height: 600px;
+}
+.image2 {
+    width: 400px;
+}
+
+.text h2{
+    margin: 20px;
+}
+
+.text p {
+    padding-left: 20px;
+}
+
+/* aside */
+.container1{
+    margin: 20px;
+    background: white;
+    width: 400px;
+    height: 500px;
+}
+
+.text1 h2{
+    margin: 20px;
+}
+.text1 p {
+    padding-left: 20px;
+}
+
+.container2{
+    margin: 20px;
+    background: white;
+    width: 400px;
+    height: 300px;
+}
+.text2 h2{
+    margin: 20px;
+    padding-top: 30px;
+}
+.text2 p {
+    padding-left: 20px; */
+}
+
+/* Media query for smartphones */
+@media (max-width: 767px) {
+    .container {
+        width: 100%; /* Make the container full width on smartphones */
+        height: auto; /* Allow height to adjust based on content */
+    }
+
+    .text h2 {
+        margin: 10px; /* Reduce margin for h2 on smartphones */
+    }
+
+    .text p {
+        padding-left: 10px; /* Reduce padding for paragraphs on smartphones */
+    }
+}
